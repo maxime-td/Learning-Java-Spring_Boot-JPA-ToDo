@@ -67,7 +67,6 @@ public class TasksApplication implements CommandLineRunner {
             jdbcTemplate.update("INSERT INTO tasks (category, content) values(3, 'finir le tp 1'); ");
             jdbcTemplate.update("INSERT INTO tasks (category, content) values(2, 'finir le tp 2'); ");
             jdbcTemplate.update("INSERT INTO tasks (category, content) values(1, 'finir le tp 3'); ");
-            jdbcTemplate.update("INSERT INTO tasks (category, content) values(1, 'finir le tp 3'); ");
             log.info("tasks TABLE POPULATED");
         }
 
